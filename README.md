@@ -1,14 +1,13 @@
 Codes and data used in the following papers:
 
-  Data-Driven Pulsatile Blood Flow Physics with Dynamic Mode Decomposition
+1.Data-Driven Pulsatile Blood Flow Physics with Dynamic Mode Decomposition
 
-   Milad Habibi, Scott Dawson, Amirhossein Arzani
-
- https://www.mdpi.com/2311-5521/5/3/111
- 
-   Integrating multi-fidelity blood flow data with reduced-order data assimilation
-   
-      Milad Habibi, Roshan M D'Souza, Scott Dawson, Amirhossein Arzani
+  Milad Habibi, Scott Dawson, Amirhossein Arzani
+  https://www.mdpi.com/2311-5521/5/3/111
+  
+2.Integrating multi-fidelity blood flow data with reduced-order data assimilation
+  
+  Milad Habibi, Roshan M D'Souza, Scott Dawson, Amirhossein Arzani
 	
   https://arxiv.org/abs/2104.01971
 	
@@ -16,36 +15,34 @@ Codes and data used in the following papers:
 
 MATLAB codes (all the input files can be found in the data section):
 
-  DMDc: Dynamic mode decomposition with control.
+1)DMDc: Dynamic mode decomposition with control.
   
-V: Velocity data, size: M×N
+  V: Velocity data, size: M×N
 
-U: Controller input data, size: 1×N
+  U: Controller input data, size: 1×N
 
-where V and U are the input to the DMDc: DMDc (U,V)
+  where V and U are the input to the DMDc: DMDc (U,V)
 
-  ROM-KF: Reduced-order modeling Kalman filter.
+2)ROM-KF: Reduced-order modeling Kalman filter.
   
-Gr: Ground truth velocity data, size: M×N
+  Gr: Ground truth velocity data, size: M×N
 
-Un: Uncertain velocity data, size: M×N
+  Un: Uncertain velocity data, size: M×N
 
-Ex: Experimental velocity data, size: P×N
+  Ex: Experimental velocity data, size: P×N
 
-H: Observation matrix, size: P×M
+  H: Observation matrix, size: P×M
 
-Co: The diagonal entries of the diagonal covariance matrix: M×1
+  Co: The diagonal entries of the diagonal covariance matrix: M×1
 
-where Gr, Un, Ex, H, and Co are the input to the ROM-KF: 
+  where Gr, Un, Ex, H, and Co are the input to the ROM-KF: ROM-KF(Gr,Un,Ex,H,Co)
+  
+3)WOM: Womersley Analytical solution
+  Fr: Pressure gradient wave form Fourier series’ frequency 
 
-ROM-KF(Gr,Un,Ex,H,Co)
+  Cn: Pressure gradient wave form Fourier series’ coefficients.
 
-  WOM: Womersley Analytical solution
-Fr: Pressure gradient wave form Fourier series’ frequency 
-
-Cn: Pressure gradient wave form Fourier series’ coefficients.
-
-where Fr and Cn are the input to the WOM: WOM (Fr,Cn)
+  where Fr and Cn are the input to the WOM: WOM (Fr,Cn)
 
 Data:
 
