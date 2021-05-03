@@ -27,5 +27,7 @@ where Fr and Cn are the input to the WOM: WOM (Fr,Cn)
 Data:
 The datasets are provided in the following Google Drive link and should be placed in the same code directory.
 https://drive.google.com/drive/folders/1iBMG4K1_GxfqrHYxM4N9CNnlw4ZWgyDd?usp=sharing 
+![image](https://user-images.githubusercontent.com/48529626/116927760-f08a9400-ac10-11eb-8c51-8d1c109e994a.png)
+
 
 
