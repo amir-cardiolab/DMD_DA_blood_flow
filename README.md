@@ -1,8 +1,12 @@
 Codes and data used in the following papers:
-	Data-Driven Pulsatile Blood Flow Physics with Dynamic Mode Decomposition
+
+  Data-Driven Pulsatile Blood Flow Physics with Dynamic Mode Decomposition
+	
 Milad Habibi, Scott Dawson, Amirhossein Arzani
+
  https://www.mdpi.com/2311-5521/5/3/111
-	Integrating multi-fidelity blood flow data with reduced-order data assimilation
+ 
+   Integrating multi-fidelity blood flow data with reduced-order data assimilation
 	Milad Habibi, Roshan M D'Souza, Scott Dawson, Amirhossein Arzani
 	https://arxiv.org/abs/2104.01971
   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
