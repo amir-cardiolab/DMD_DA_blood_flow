@@ -17,9 +17,9 @@ MATLAB codes (all the input files can be found in the data section):
 
 1) DMDc: Dynamic mode decomposition with control.
   
-  V: Velocity data, size: M×N
+    V: Velocity data, size: M×N
 
-  U: Controller input data, size: 1×N
+    U: Controller input data, size: 1×N
 
   where V and U are the input to the DMDc: DMDc (U,V)
 
