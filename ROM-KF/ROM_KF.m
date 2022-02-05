@@ -69,9 +69,9 @@ beta2=(size(S2,2)/size(S2,1));
 thresh2=optimal_SVHT_coef(beta2, 0)*median(SIG2);
 % r2 =  length(find(diag(S2)>thresh2))+1;
 r2=r;
-U_r2 = U(:, 1:r2); % truncate to rank-r
-S_r2 = S(1:r2, 1:r2);
-V_r2 = V(:, 1:r2);
+U_r2 = U2(:, 1:r2); % truncate to rank-r
+S_r2 = S2(1:r2, 1:r2);
+V_r2 = V2(:, 1:r2);
 Atilde2 = U_r2' * X1 * V_r2 / S_r2;
 
 Atilde=(Atilde1*inv(Atilde2))^0.5;
